@@ -1,0 +1,72 @@
+main {
+    border-radius: 4px;
+   margin-top: 3%;
+   background-color: #eeeeee;
+   display: flex;
+   flex-direction: column;
+       
+ }
+ 
+ #title{
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 0 20%;
+   margin-top: 2%;
+   padding-top: 2%;
+ }
+ 
+  h1 {
+   margin-top: 4%;
+ }
+ 
+ #tribute-info {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+ }
+ 
+ h3 {
+   margin: 4% auto;
+ }
+ 
+ ul {
+   margin: 2% auto;
+   font-size: 0.9rem;
+   list-style-position: outside;
+ }
+ 
+ li {
+   line-height: 1.5rem;
+   margin: 4% 8%;
+   
+ }
+ #quote {
+   font-style:italic;
+   line-height: 1.5rem;
+   margin: 4% 12%;
+ }
+ 
+ h3 {
+   text-align:center;
+ }
+ 
+ 
+ 
+ #image {
+   display: block;
+   height: auto;
+   max-width: 100%;
+   margin: 0 auto;
+   
+ }
+ 
+ 
+ 
+ #img-div {
+   border-radius: 4px;
+   background-color: #ffffff;
+   padding: 15px;
+   margin: 15px;
+   text-align: center;
+ }
