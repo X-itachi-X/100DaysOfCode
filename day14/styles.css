@@ -1,74 +1,115 @@
-html {
-    box-sizing: border-box;
+@media(max-width:768px){
+  header{
+  font-size:24px;
+  padding-left:20px;
+}
+  .nav-link{
+    display:block;
+    border: solid 0.1px grey;
   }
-  
-  *, *::before, *::after {
-    box-sizing: inherit;
+  .link{
+    border: solid 1px gray;
+    height:180px;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    overflow-y:scroll;
   }
+  nav > :first-child{
+    text-align:center;
+    font-weight:400;
+    height:35px;
+    font-size: 25px;
+    padding: 9px 0;
+ }
+  .nav-link{
+    display:block;
+    border-top: solid 0.1px grey;
+    height:22px;
+    font-size: 12px;
+    padding-top: 11px;
+    padding-left:22px;
   
-  #piano {
-    background-color: #00471b;
-    width: 992px;
-    height: 290px;
-    margin: 80px auto;
-    padding: 90px 20px 0 20px;
-    position: relative;
-    border-radius: 10px;
   }
-  
-  .keys {
-    background-color: #040404;
-    width: 949px;
-    height: 180px;
-    padding-left: 2px;
-    overflow: hidden;
+}
+
+@media(min-width:768px){
+   header{
+  font-size:28px;
+}
+ 
+ nav > :first-child{
+   
+    
+    height:24px;
+    font-size: 12px;
+    padding-top: 9px;
+    padding-left:12px;
+ }
+  .nav-link{
+    display:block;
+    border-top: solid 0.1px grey;
+    height:28px;
+    font-size: 12px;
+    padding-top: 9px;
+    padding-left:12px;
   }
+
   
-  .key {
-    background-color: #ffffff;
-    position: relative;
-    width: 41px;
-    height: 175px;
-    margin: 2px;
-    float: left;
-    border-radius: 0 0 3px 3px;
+  #navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:25%;
+    overflow:auto;
+    
   }
-  
-  .key.black--key::after {
-    background-color: #1d1e22;
-    content: "";
-    position: absolute;
-    left: -18px;
-    width: 32px;
-    height: 100px;
-    border-radius: 0 0 3px 3px;
+  #main-doc {
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
+    width:75%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    border-left: solid 2px grey;
   }
+}
+
+html,body{
+  font-family: open sans,sans-serif;
+  scroll-behavior: smooth;
   
-  .logo {
-    width: 200px;
-    position: absolute;
-    top: 23px;
-  }
-  
-  @media (max-width: 768px) {
-    #piano {
-      width: 358px;
-    }
-  
-    .keys {
-      width: 318px;
-    }
-  
-    .logo {
-      width: 150px;
-    }
-  }
-  
-  @media (max-width: 1199px) and (min-width: 769px) {
-    #piano{
-      width: 675px;
-    }
-    .keys{
-      width:633px;
-    }
-  }
+}
+p,ul,li{
+  font-size: 12px;
+  margin:15px 25px;
+  line-height:18px ;
+  color: #4d4e53;
+}
+ 
+*{
+  box-sizing:inherit;
+  line-height: 1.5;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#main-id header{
+  font-size:28px;
+}
+
