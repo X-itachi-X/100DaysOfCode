@@ -37,13 +37,12 @@
 @media(min-width:768px){
    header{
   font-size:28px;
+  padding-left:20px;
 }
  
  nav > :first-child{
-   
-    
-    height:24px;
-    font-size: 12px;
+    height:40px;
+    font-size: 25px;
     padding-top: 9px;
     padding-left:12px;
  }
@@ -72,6 +71,7 @@
     right:0;
     height:100%;
     width:75%;
+    padding-top: 9px;
     overflow-x:hidden;
     overflow-y:scroll;
     border-left: solid 2px grey;
@@ -105,7 +105,7 @@ code {
   line-height: 2;
   background-color: #f7f7f7;
   padding: 15px;
-  margin: 10px;
+  margin: 50px;
   border-radius: 5px;
 }
 
@@ -113,3 +113,6 @@ code {
   font-size:28px;
 }
 
+a:link, a:visited, a:hover, a:active{
+  color:gray;
+}
