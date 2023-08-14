@@ -115,4 +115,5 @@ code {
 
 a:link, a:visited, a:hover, a:active{
   color:gray;
+  text-decoration: none;
 }
