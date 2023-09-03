@@ -1,0 +1,1 @@
+const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
